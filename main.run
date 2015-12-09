@@ -27,4 +27,26 @@ vrai = 1
 *include variable.ed
 *include recod.ed
 
-end                 
+end 
+
+
+a;nodsp;type;nodate;pc;acr100;side=30;dp;nopage;pagwid=330;nz;
++decp=2;ttord=(flt,side,tab,top,high);pcpos=-1;spechar=-;indent=1
++clevel=95;linesbef=0;linesaft=0
++op=12
+/* Commenter pour export !
+/*+nsw;wm=1
+
+ttl_tstat,{99,100},1,99,95
+ttl_param,paglen=0
+
+*include sortie.tab;break=tot;cond=vrai;text=Ensemble
+
+*include sortie.axe
+*include tris.axe
+
+l tot
+n01Total
+
+l dumb
+n01           
