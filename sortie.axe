@@ -1,0 +1,11 @@
+
+l sc0
+ttlSC0. Accepteriez-vous de m?accorder une dizaine de minutes pour répondre à ce questionnaire sur
+ttll?appel téléphonique que vous avez eu ?
+*include begin.in
+val sc0;=;
++Oui maintenant=1
++Oui plus tard=2
++Non / Refus=3
+*include end.in
+                   
