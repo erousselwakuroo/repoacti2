@@ -1,0 +1,30 @@
+struct;read=0;reclen=5000
+
+/* NbVar=Nombre MAX de variable
+#def NbVar=500
+/* NbStr=Nombre MAX de ligne dans STRING
+#def NbStr=10
+/* NbRec=Nombre MAX de ligne dans RECODE
+#def NbRec=10
+/* NbRen=Nombre MAX de ligne dans RENAME
+#def NbRen=10
+
+int vrai 1
+
+*include decglob.ed
+*include etude.lst;file=src/declar.ed
+*include declarS.ed
+*include udf.ed
+
+ed
+*include readfic.ed;maxcol=5000
+
+vrai = 1
+
+*include etude.lst;file=src/init.ed
+*include initS.ed
+
+*include variable.ed
+*include recod.ed
+
+end                 
